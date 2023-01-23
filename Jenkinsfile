@@ -1,4 +1,3 @@
-@Library("poun-shared-library")
 pipeline {
     agent any
     stages {
