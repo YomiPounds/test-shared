@@ -1,3 +1,4 @@
+@Library('poun-shared-library') _
 pipeline {
     agent any
     stages {
@@ -9,6 +10,11 @@ pipeline {
         stage('first-stage'){
             steps {
                 sh "echo I am a boy"
+            }
+        }
+        stage('try-now'){
+            steps{
+                yomishared("Abayomi Ariyo")
             }
         }
     }
