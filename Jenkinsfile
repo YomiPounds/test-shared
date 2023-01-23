@@ -14,7 +14,7 @@ pipeline {
         }
         stage('try-now'){
             steps{
-                yomishared("Abayomi Ariyo")
+                yomishared("Abayomi Ariyo" "Sunday")
             }
         }
     }
